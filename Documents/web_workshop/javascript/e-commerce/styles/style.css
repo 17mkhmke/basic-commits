@@ -1,0 +1,202 @@
+/* Universal font */
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=PT+Serif:ital@1&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100&display=swap');
+/* Universal STyling */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Navigation Bar */
+
+/* header{
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: darkred;
+} */
+.logo {
+    width: 5rem;
+}
+.navbar-brand {
+    font-size: 2rem;
+    color: gold;
+    float: left;
+}
+.navbar-brand:hover {
+    color: black;
+}
+.navbar-nav{
+    float: left;
+}
+.nav-link{
+    margin-right:10px ;
+    margin-left: 10px;
+    color: white;
+    text-transform: uppercase;
+    
+}
+
+.nav-link:hover{
+    color: gold;
+}
+
+.landing {
+    background: url(/assets/e-comBackground.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+
+}
+.landing h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+}
+.btn1 {
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: goldenrod;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+/* Product */
+.Products {
+    background-color: lightyellow;
+}
+.wrapper {
+    width: 95%;
+    margin: 0 auto;
+}
+#search-container{
+    margin: 1em 0;
+}
+#search-container input{
+    background-color: transparent;
+    width: 40%;
+    border-bottom: 2px solid black;
+    padding: 1em 0.3em;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+}
+#search-container input:focus{
+    border: none;
+}
+#search-container input:hover{
+    border-bottom-color:goldenrod ;
+
+
+}
+#search-container button{
+    padding: 1em 2em;
+    margin-left: 1em;
+    background-color: goldenrod;
+    color: white;
+    border-radius:60px;
+    margin-top:0.5em;
+    border: none;
+}
+/* .WhiskProd {
+    width: 12rem;
+    height: 8rem;
+}
+.BeerProd{
+    width: 12rem;
+    height: 8rem;
+}
+.VodpProd{
+    width: 12rem;
+    height: 8rem;
+}
+h1 {
+    font-weight: 700;
+    
+} */
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+    .gfg-div {
+      background-color: #63c971;
+      color: #fff;
+    }
+  }
+   
+  /* For Tablet View */
+  @media screen and (min-device-width: 768px)
+  and (max-device-width: 1024px) {
+    .gfg-div {
+      width: 400px;
+      height: 400px;
+      background-color: orange;
+      color: black;
+    }
+  }
+   
+  /* For Mobile Portrait View */
+  @media screen and (max-device-width: 480px)
+  and (orientation: portrait) {
+    .gfg-div {
+      width: 200px;
+      height: 200px;
+      background-color: red;
+      color: #fff;
+    }
+  }
+   
+  /* For Mobile Landscape View */
+  @media screen and (max-device-width: 640px)
+  and (orientation: landscape) {
+    .gfg-div {
+      width: 400px;
+      height: 200px;
+      background-color: cyan;
+      color: black;
+    }
+  }
+   
+  /* For Mobile Phones Portrait or Landscape View */
+  @media screen and (max-device-width: 640px) {
+    .gfg-div {
+      width: 400px;
+      height: 200px;
+      background-color: chartreuse;
+      color: black;
+    }
+  }
+   
+  /* For iPhone 4 Portrait or Landscape View */
+  @media screen and (min-device-width: 320px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .gfg-div {
+      width: 400px;
+      height: 400px;
+      background-color: brown;
+      color: black;
+    }
+  }
+   
+  /* For iPhone 5 Portrait or Landscape View */
+  @media (device-height: 568px) and (device-width: 320px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .gfg-div {
+      width: 400px;
+      height: 400px;
+      background-color: cornflowerblue;
+      color: black;
+    }
+  }
+   
+  /* For iPhone 6 and 6 plus Portrait or Landscape View */
+  @media (min-device-height: 667px) and (min-device-width: 375px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    .gfg-div {
+      width: 400px;
+      height: 400px;
+      background-color: darkgoldenrod;
+      color: black;
+    }
+  }
